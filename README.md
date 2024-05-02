@@ -24,20 +24,25 @@ You can access the Tableau Public dashboard https://public.tableau.com/app/profi
 7. Over the years most of the fights won in the first and second round are via knockouts.
 8. Third and Fifth round are largely decision wins as we know in the UFC there are only three and five round fights. It appears fighters who make it to final round tend to not get subbed or knocked out.  
 
-## How to Replicate the Project
-To replicate the data scraping and analysis process, follow these steps:
-1. Clone the repository:
-git clone https://github.com/yourusername/ufc-fight-data-analysis.git
-2. Navigate to the project directory:
-cd ufc-fight-data-analysis
-3. Initialize and activate a virtual environment (optional but recommended):
-virtualenv venv
+## Build From Sources and Run the Selenium Scrapers
+1. Clone the repo
+```bash
+git clone https://github.com/shajon1211045/Scraping_and_analyzing_UFC_fight_data.git
+```
+2. Intialize and activate virtual environment
+```bash
+virtualenv --no-site-packages  venv
 source venv/bin/activate
-4. Install dependencies:
+```
+3. Install dependencies
+```bash
 pip install -r requirements.txt
-5. Run the Python scripts in the `scrapers` folder to scrape UFC fight data.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+```
+4. Download Chrome WebDrive from https://chromedriver.chromium.org/downloads 
+5. Run the scrapers
+```bash
+python selenium_scraper/scrape_fight_data.py --chromedriver_path <path_to_chromedriver>
+python selenium_scraper/scrape_fighter_stats.py --chromedriver_path <path_to_chromedriver>
+```
+6. You will get a file named `transformed_data.csv` containing all the required fields. 
 
