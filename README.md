@@ -41,8 +41,8 @@ pip install -r requirements.txt
 4. Download Chrome WebDrive from https://chromedriver.chromium.org/downloads 
 5. Run the scrapers
 ```bash
-python selenium_scraper/scrape_fight_data.py --chromedriver_path <path_to_chromedriver>
-python selenium_scraper/scrape_fighter_stats.py --chromedriver_path <path_to_chromedriver>
+python scrapers/scrape_fight_data.py --chromedriver_path <path_to_chromedriver>
+python scrapers/scrape_fighter_stats.py --chromedriver_path <path_to_chromedriver>
 ```
 6. You will get a file named `transformed_data.csv` containing all the required fields. 
 
