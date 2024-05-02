@@ -13,16 +13,16 @@ The Tableau Public dashboard showcases the following analyses:
 6. Fighters with the most wins across different rounds
 7. Number of wins by different fighting methods over the years across different rounds
 
-You can access the Tableau Public dashboard [here](#) (link to be updated).
+You can access the Tableau Public dashboard https://public.tableau.com/app/profile/zahidul.islam.shajon/viz/UFC_FIGHT_ANALYSIS/Dashboard3
 
 ## Findings and Observations from the Dashboard
-1. Brazilian fighters dominate the top knockout artists list across various weight classes.
-2. Submission artists from different weight classes show a diverse distribution, with certain weight classes having more prominent submission specialists.
-3. The win counts are distributed unevenly across different weight classes, indicating varying levels of competition and dominance.
-4. Certain fighting stances seem to be more effective in specific weight classes, with orthodox and southpaw stances being the most common.
-5. Fighters with the most losses across different rounds tend to have longer fighting careers and higher experience levels.
-6. Fighters with the most wins across different rounds often demonstrate consistent performance and adaptability.
-7. The popularity and effectiveness of different fighting methods have evolved over the years, with trends reflecting changes in rules, regulations, and fighter strategies.
+1. Bigger fighters have more ratio in the top chart for knockouts like Heavyweights, Light Heavyweights and Middleweights.
+2. Relatively smaller fighters dominate most submission wins top chart specially fighters in the lightweight divison.
+3. The orthodox fighting stance has been the most effective for winning a fight as it has the most winnig counts across different weight classes.
+5. Some of the most well known knockout and submission artists (many of them never became world champion) have most wins in the first round and relatively less popular fighters have most losses in the first round except a few popular names like Donald cereone, Frank Mir and Antonio Silva.
+6. Almost all the fighters in the winning and losing top chart for fifth round are former and current world champions.
+7. Over the years most of the fights won in the first and second round are via knockouts.
+8. Third and Fifth round are largely decision wins as we know in the UFC there are only three and five round fights. It appears fighters who make it to final round tend to not get subbed or knocked out.  
 
 ## How to Replicate the Project
 To replicate the data scraping and analysis process, follow these steps:
