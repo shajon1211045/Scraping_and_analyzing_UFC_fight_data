@@ -44,5 +44,5 @@ pip install -r requirements.txt
 python scrapers/scrape_fight_data.py --chromedriver_path <path_to_chromedriver>
 python scrapers/scrape_fighter_stats.py --chromedriver_path <path_to_chromedriver>
 ```
-6. You will get a file named `transformed_data.csv` containing all the required fields. 
+6. You will get two files named `fight_data.csv` and `fighter_stats.csv` containing all the required fields. 
 
