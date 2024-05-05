@@ -1,7 +1,7 @@
 # UFC Fight Data Analysis Project
 
 ## Project Overview
-This project focuses on analyzing UFC (Ultimate Fighting Championship) fight data scraped from [UFC Stats](http://www.ufcstats.com/statistics/events/completed?page=all). The goal is to gain insights into various aspects of UFC fights, including fighter performance, fight outcomes, and trends over time. The analysis is conducted using Python scripts for data scraping and Jupyter Notebooks for exploratory data analysis (EDA). Additionally, a Tableau Public dashboard is created to visualize the findings.
+This project focuses on analyzing UFC (Ultimate Fighting Championship) fight data (7600 rows, 28 columns) scraped from [UFC Stats](http://www.ufcstats.com/statistics/events/completed?page=all). The goal is to gain insights into various aspects of UFC fights, including fighter performance, fight outcomes, and trends over time. The analysis is conducted using Python scripts for data scraping and Jupyter Notebooks for exploratory data analysis (EDA). Additionally, a Tableau Public dashboard is created to visualize the findings.
 
 ## Dashboard Overview
 The Tableau Public dashboard showcases the following analyses:
