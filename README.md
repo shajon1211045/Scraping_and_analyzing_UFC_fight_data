@@ -3,6 +3,9 @@
 ## Project Overview
 This project focuses on analyzing UFC (Ultimate Fighting Championship) fight data (7600 rows, 28 columns) scraped from [UFC Stats](http://www.ufcstats.com/statistics/events/completed?page=all). The goal is to gain insights into various aspects of UFC fights, including fighter performance, fight outcomes, and trends over time. The analysis is conducted using Python scripts for data scraping and Jupyter Notebooks for exploratory data analysis (EDA). Additionally, a Tableau Public dashboard is created to visualize the findings.
 
+![Screenshot 2024-05-03 023636](https://github.com/shajon1211045/Scraping_and_analyzing_UFC_fight_data/assets/59179489/862311e2-d35d-42b4-a91f-4b052ac78a58)
+![Screenshot 2024-05-03 023716](https://github.com/shajon1211045/Scraping_and_analyzing_UFC_fight_data/assets/59179489/13d612d4-990e-41de-be11-257847095c1a)
+
 ## Dashboard Overview
 The Tableau Public dashboard showcases the following analyses:
 1. Top knockout artists across different weight classes
